@@ -1,0 +1,167 @@
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   
+}
+.main{
+    margin: 100px;
+    padding: 100px;
+    display: grid;
+    grid-template-areas:"daniel daniel jonathan kira" "jeanette patrick patrick kira";
+    max-width: 90%;
+    max-height: 2500px;
+    /* grid-template-columns: 235px 255px 240px 250px; */
+    grid-template-columns: 21% 23% 21% 22%;
+    grid-template-rows: 50%;
+    gap: 25px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.daniel{
+grid-area: daniel;
+background-color: var(--colordaniel--);
+border-radius: 12px;
+padding: 20px;
+color: white;
+background-image: url("../images/bg-pattern-quotation.svg");
+background-repeat: no-repeat;
+background-position-x: 80%;
+}
+
+
+
+.daniel .text-daniel{
+    display: flex;
+    gap: 10px;
+}
+
+.daniel .header-daniel{
+    padding-top: 5px;
+}
+
+.main h5{
+    opacity: 50%;
+    margin-top: 3px;
+}
+.daniel .text1-daniel{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.daniel .text2-daniel{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: 7px;
+}
+.jonathan{
+    grid-area: jonathan;
+    background-color: var(--colorjonathan--);
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+}
+
+.jonathan .text-jonathan{
+    display: flex;
+    gap: 10px;
+}
+
+.jonathan .header-jonathan{
+    padding-top: 5px;
+}
+
+.jonathan .text1-jonathan{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.jonathan .text2-jonathan{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: 7px;
+}
+.kira{
+    grid-area: kira;
+    background-color: var(--colorkira--);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.kira .text-kira{
+    display: flex;
+    gap: 10px;
+}
+
+.kira .header-kira{
+    padding-top: 5px;
+}
+
+.kira .text1-kira{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.kira .text2-kira{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: 7px;
+}
+
+.jeanette{
+    grid-area: jeanette;
+    background-color: var(--colorjeanette--);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.jeanette .text-jeanette{
+    display: flex;
+    gap: 10px;
+}
+
+.jeanette .header-jeanette{
+    padding-top: 5px;
+}
+
+.jeanette .text1-jeanette{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.jeanette .text2-jeanette{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: 7px;
+}
+.patrick{
+    grid-area: patrick;
+    background-color: var(--colorpatrick--);
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+}
+
+.patrick .text-patrick{
+    display: flex;
+    gap: 10px;
+}
+
+.patrick .header-patrick{
+    padding-top: 5px;
+}
+
+.patrick .text1-patrick{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.patrick .text2-patrick{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: 7px;
+}

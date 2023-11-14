@@ -1,0 +1,46 @@
+@media (max-width:1200px){
+    .main{
+        padding: 50px;
+        margin: 40px;
+        gap: 30;
+    }
+   
+}
+
+@media (max-width:925px){
+    .main{
+        padding: 40px;
+        margin: 30px;
+        gap: 10px;
+    }
+   
+}
+
+@media (max-width:850px){
+    .main{
+        margin: 20px;
+        padding: 20px;
+    }
+   
+}
+
+@media (max-width:780px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 40px;
+    }
+    .kira{
+        order:1;
+    }
+    
+}
+
+@media (max-width:250px){
+    .main{
+        margin: 10px;
+    }
+   
+}
+
